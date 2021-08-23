@@ -1,0 +1,25 @@
+[26-Apr-2021 06:49:01 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/object/movecards.php:21
+Stack trace:
+#0 /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/moving-cards.php(12): moveCards->movingCardsToFirstRevision()
+#1 {main}
+  thrown in /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/object/movecards.php on line 21
+[26-Apr-2021 06:51:01 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/object/movecards.php:21
+Stack trace:
+#0 /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/moving-cards.php(12): moveCards->movingCardsToFirstRevision()
+#1 {main}
+  thrown in /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/object/movecards.php on line 21
+[26-Apr-2021 07:04:01 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/object/movecards.php:21
+Stack trace:
+#0 /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/moving-cards.php(12): moveCards->movingCardsToFirstRevision()
+#1 {main}
+  thrown in /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/object/movecards.php on line 21
+[29-Apr-2021 02:50:01 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/object/movecards.php:21
+Stack trace:
+#0 /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/moving-cards.php(12): moveCards->movingCardsToFirstRevision()
+#1 {main}
+  thrown in /home/doozyco1/public_html/doozycodsys.com/Shotnotes/API/cron/object/movecards.php on line 21
+[14-Aug-2021 23:30:01 Asia/Manila] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/doozyco1/public_html/shotnotes/API/cron/object/movecards.php:21
+Stack trace:
+#0 /home/doozyco1/public_html/shotnotes/API/cron/moving-cards.php(12): moveCards->movingCardsToFirstRevision()
+#1 {main}
+  thrown in /home/doozyco1/public_html/shotnotes/API/cron/object/movecards.php on line 21

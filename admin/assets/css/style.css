@@ -1,0 +1,351 @@
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+.btn-info.btn-fill{
+    background-color:#ffcd88;
+    border-color:#ffcd88;
+}
+.btn-info.btn-fill:hover{
+    background-color:#ffc26d;
+    border-color:#ffc26d;
+}
+.all-icons [class*="pe-"]{
+    font-size: 40px;
+}
+.all-icons input{
+    border: 0;
+}
+.all-icons .font-icon-detail{
+    text-align: center;
+    padding: 45px 0px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+.all-icons .font-icon-detail input{
+    margin: 25px auto 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+}
+
+#map{
+    position:relative;
+    width:100%;
+    height: calc(100% - 60px);
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.sidebar .nav > li.active-pro a{
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+    text-align: center;
+}
+
+@media all and (max-width: 991px)  {
+    .sidebar .nav > li.active-pro{
+        position: initial;
+    }
+}
+
+
+.serach {
+    float: right!important;
+    margin-right: 10px;
+}
+
+.table-full-width {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+h4.card-title.text-center.pt-2 {
+    padding-top: 20px;
+    font-weight: 900;
+}
+a.page-link>i {
+    padding: 3px 0px;
+}
+
+
+div#accordion button.chapter-name {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+
+div#accordion button.btn.btn-link.chapter-name {
+    border: 2px solid #ffc26d;
+    background: #ffc26d;
+    color: #f7f7f8;
+    border-radius: 10px;
+}
+
+div#accordion button.btn.btn-link.chapter-name.collapsed {
+    border-color: #ffc26d;
+    background: #ffff;
+    color: #ffc26d;
+}
+
+div#accordion .card-body {
+    padding: 38px;
+}
+
+div#accordion .card {
+    border-radius: 10px;
+}
+a.view-cards {
+    padding: 5px 10px;
+    border: 2px solid #ffce8a;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffce8a;
+}
+td {
+    text-transform: capitalize;
+}
+a.view-cards:hover {
+    background: #ffce8a;
+    color: #ffff;
+}
+div#accordion button.btn.btn-link.chapter-name.collapsed:hover {
+    text-decoration: none !important;
+    transform: scale(1.013);
+    background: #ffc26d !important;
+    transition: 100ms;
+    color: #ffff !important;
+}
+button.btn.btn-link.chapter-name:focus {
+    text-decoration: none !important;
+}
+ul.nav.nav-tabs>li {justify-content: center;width: 50% !important;}
+
+
+
+
+ul.nav.nav-tabs li a {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffc26d;
+    text-align:center;
+}
+
+ul.nav.nav-tabs>li.active a {
+    color: #ffffff;
+    background: #ffc26d;
+}
+.container {
+    width: 100%;
+}
+
+ul.nav.nav-tabs li a:hover {
+    color: #ffff;
+    background: #ffc26dbf;
+}
+
+ul.nav.nav-tabs li.active a:hover {
+    color: #ffff;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ffc26d !important;
+}
+
+
+.nav-tabs li.active a {
+    border: 1px solid #ffc26d !important;
+    border-bottom-color: transparent !important;
+}
+a.download-button {
+    color: #32c7ec;
+    border: 2px solid #32c7ec;
+    padding: 4px 10px;
+    border-radius: 6px;
+    display: block;
+}
+
+
+
+.pe-7s-look:before {
+    font-size: 15px;
+    font-weight: 700;
+    padding:5px;
+}
+
+
+a.download-button:hover {
+    background: #32c7ec;
+    color: #ffff;
+}
+a.download-button:hover i:before{
+    background: #32c7ec;
+    color: #ffff;
+    
+    visibility:visible;
+}
+.wrapper {
+    height: auto !important;
+}
+div#answer_pdf_section>.row>.col-md-3>.card>img {width: 100% !important;}
+
+div#answer_pdf_section>.row>.col-md-3>.card {
+    padding: 40px;
+}
+div#question_pdf_section>.row>.col-md-3>.card>img {width: 100% !important;}
+
+div#question_pdf_section>.row>.col-md-3>.card {
+    padding: 40px;
+}
+audio {
+    width: 100%;
+}
+
+div#answer_audio_section .card img {
+    width: 100%;
+}
+
+div#answer_audio_section .card {
+    padding: 15px 05px;
+}
+/* Model Box Image */
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#question-image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+button.close {
+    color: #fccc89 !important;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 33px;
+}
+button#show-previous-image {
+    float: left;
+    background-color: #fcc06c;
+    color: #fff;
+    margin: 15px;
+}
+
+button#show-next-image {
+    background-color: #fcc06c;
+    color: #fff;
+    margin: 15px;
+}
+.modal-backdrop.fade.in {
+    z-index: 1 !important;
+}
+
+div#question h3 {
+    color: black;
+    font-size: 24px;
+}
+
+.tab-content h2.text-center {
+    font-size: 29px;
+    font-weight: 400;
+    color: #f7f7f8;
+    background: #ffc26d;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 10px 20px 10px !important;
+}
+
+.modal.fade.in {
+    background: #000000ba;
+}
+
+a.next-card {
+    border-radius: 10px;
+    padding: 10px;
+    background: #ffc26d;
+    color: #ffff;
+    float: right;
+    border:1px solid #fff;
+}
+
+
+a.previous-card {
+    float: left;
+    padding: 10px;
+    background: #ffc26d;
+    border-radius: 10px;
+    color: #fff;
+    border:1px solid #fff;
+}
+a.card:hover {
+    background: #fff;
+    color: #ffc26d;
+    border-color: #ffc26d;
+}
+a.card.disabled {
+    color: rgb(119, 119, 119);
+    cursor: not-allowed;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(221, 221, 221);
+}
+.content {
+    background: #f7f7f8;
+    min-height: 86vh !important;
+    width: 100%;
+    height: auto !important;
+}
+
+td.text-center {
+    color: #f2385a;
+    font-size: 24px;
+    padding: 15% !important;
+    font-weight: 700;
+}
+
+h3.text-center.no-data {
+    padding: 10%;
+    font-size: 27px;
+    font-weight: 600;
+    color: #f2385a;
+}
+h3.text-center.title {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    background: #ffc26d;
+    border-radius: 10px;
+    padding: 10px;
+}
